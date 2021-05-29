@@ -520,6 +520,178 @@
 // }
 
 
+// // 4. Write a program to take input remaining fuel in car (in litres) from user. If the 
+// // current fuel is less than 0.25litres, show the message “Please refill the fuel in your car”
+// var remainingFuel = +prompt("How many fuel have left?");
+// if (remainingFuel < 0.25) {
+//     document.write("Please refill the fuel in your car");
+// } else {
+//     document.write("You have enough fuel ");
+// }
+
+
+// // 5. Run this script, & check whether alert message would be displayed or not. Record the outputs.
+// // a.
+//  var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+
+// // b. 
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+
+// // c.
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+
+// // d. 
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+
+// // e. 
+// if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+
+// // f. 
+// if("car" < "cat"){
+// alert("car is smaller than cat");
+// }
+
+
+// // 6. Write a program to take input the marks obtained in three subjects & total marks. Compute 
+// // & show the resulting percentage on your page. Take percentage & compute grade as per following
+// // table:
+// var marksObtained = +prompt("Enter marks obtained in three subjects");
+// var totalMarks = 300;
+// var percentage = marksObtained / totalMarks * 100;
+// document.write("<h1> Marks Sheet </h1>");
+// if (percentage >= 80 && percentage <=300) {
+//     document.write("Total Marks: " + totalMarks + "<br>");
+//     document.write("Marks Obtained: " + marksObtained + "<br>");
+//     document.write("Percentage: " + percentage + "<br>");
+//     document.write("Grade: A-one <br>");
+//     document.write("Remarks: Excellent <br>");
+// } else if (percentage >= 70 && percentage <=300) {
+//     document.write("Total Marks: " + totalMarks + "<br>");
+//     document.write("Marks Obtained: " + marksObtained + "<br>");
+//     document.write("Percentage: " + percentage + "<br>");
+//     document.write("Grade: A <br>");
+//     document.write("Remarks: Good <br>");
+// } else if (percentage >= 60 && percentage <=300) {
+//     document.write("Total Marks: " + totalMarks + "<br>");
+//     document.write("Marks Obtained: " + marksObtained + "<br>");
+//     document.write("Percentage: " + percentage + "<br>");
+//     document.write("Grade: B <br>");
+//     document.write("Remarks: You need to improve <br>");
+// } else if (percentage < 60 && percentage <=300) {
+//     document.write("Total Marks: " + totalMarks + "<br>");
+//     document.write("Marks Obtained: " + marksObtained + "<br>");
+//     document.write("Percentage: " + percentage + "<br>");
+//     document.write("Grade: Fail <br>");
+//     document.write("Remarks: Sorry <br>");
+// }
+
+
+// // 7. Guess game:
+// // Store a secret number (ranging from 1 to 10) in a variable.
+// // Prompt user to guess the secret number.
+// // a. If user guesses the same number, show “Bingo! Correct
+// // answer”.
+// // b. If the guessed number +1 is the secret number, show
+// // “Close enough to the correct answer”.
+// var secNum = 6;
+// var userGuess = +prompt("Please guess any number from 1 - 10");
+// if (userGuess === secNum) {
+//     document.write("Bingo! Correct answer");
+// } else if ((userGuess+1) === secNum) {
+//     document.write("Close enough to the correct answer");
+// }
+
+
+// // 8. Write a program to check whether the given number is divisible by 3. Show the message to 
+// // the user if the number is divisible by 3.
+// var number = +prompt("Enter any number");
+// if (number % 3 === 0) {
+//     document.write("The number is divisible by 3");
+// }
+
+
+// // 9. Write a program that checks whether the given input is an even number or an odd number.
+// var check = +prompt("Enter number to check it's even or odd");
+// if (check % 2 === 0) {
+//     document.write("It's Even");
+// } else {
+//     document.write("It's Odd");
+// }
+
+
+// // 10. Write a program that takes temperature as input and 
+// // shows a message based on following criteria
+// // a. T > 40 then “It is too hot outside.”
+// // b. T > 30 then “The Weather today is Normal.”
+// // c. T > 20 then “Today’s Weather is cool.”
+// // d. T > 10 then “OMG! Today’s weather is so Cool.”
+// var temperature = +prompt("Please tell me today's temperature");
+// if (temperature > 40) {
+//     document.write("It is too hot outside.");
+// } else if (temperature > 30) {
+//     document.write("The weather today is Normal.");
+// } else if (temperature > 20) {
+//     document.write("Today's weather is so cool.");
+// } else if (temperature > 10) {
+//     document.write("OMG! Today's weather is so Cool.")
+// }
+
+
+// // 11. Write a program to create a calculator for +,-,*, / & % 
+// // using if statements. Take the following input:
+// // a. First number
+// // b. Second number
+// // c. Operation (+, -, *, /, %)
+// // Compute & show the calculated result to user.
+// var firstNum = +prompt("Enter first number");
+// var secondNum = +prompt("Enter second number");
+// var operator = prompt("Enter operator in it's original Sign");
+// var calculatePerform;
+// if (operator === "+") {
+//     calculatePerform = firstNum + secondNum;
+//     document.write("Addition: " + calculatePerform + "<br>");
+// } else if (operator === "-") {
+//     calculatePerform = firstNum - secondNum;
+//     document.write("Subtraction: " + calculatePerform + "<br>");
+// } else if (operator === "*") {
+//     calculatePerform = firstNum * secondNum;
+//     document.write("Multiplication: " + calculatePerform + "<br>");
+// } else if (operator === "/") {
+//     calculatePerform = firstNum / secondNum;
+//     document.write("Division: " + calculatePerform + "<br>");
+// } else if (operator === "%") {
+//     calculatePerform = firstNum % secondNum;
+//     document.write("Modulus: " + calculatePerform + "<br>");
+// }
+
 
 
 
