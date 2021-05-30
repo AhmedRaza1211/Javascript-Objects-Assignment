@@ -4,8 +4,8 @@
 // Chapter - (17-20)
 
 
-// 1. Declare and initialize an empty multidimensional array.(Array of arrays)
-// 2. Declare and initialize a multidimensional array representing the following matrix:
+// 1. Declare and initialize an empty multidimensional array.(Array of arrays)(missing)
+// 2. Declare and initialize a multidimensional array representing the following matrix:(missing)
 
 // // 3. Write a program to print numeric counting from 1 to 10.
 // for (var i = 1; i <= 10; i++) {
@@ -120,7 +120,7 @@
 // // them in a new variable titled fullName. Greet the user using his full name.
 // var firstName = prompt("Enter your first name");
 // var lastName = prompt("Enter your last name");
-// fullName = firstName + " " + lastName;
+// var fullName = firstName + " " + lastName;
 // document.write("Good morning " + fullName + "<br>");
 
 
@@ -155,7 +155,37 @@
 // document.write("Character at index 3: " + thirdChar + "<br>");
 
 
-// 6. Repeat Q1 using string concat() method.
+// // 6. Repeat Q1 using string concat() method.
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name");
+// var fullName = firstName.concat(lastName);
+// document.write("Good morning " + fullName + "<br>");
+
+
+// // // 7. Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display 
+// // // the result in your browser.
+// var word = "Hyderabad";
+// var search = word.indexOf("bad");
+// if (search !== -1) {
+//     newWord = "Islam" + word.slice(search -1);
+// }
+// document.write("City: " + word + "<br>");
+// document.write("Afrer replacement: " + newWord + "<br>");
+
+
+// // 8. Write a program to replace all occurrences of “and” in the string with “&” and display the 
+// // result in your browser.
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// message = message.replace(/and/g, "&");
+// document.write(message);
+
+
+// 9. Write a program that converts a string “472” to a number 472. Display the values & types
+//    in your browser. (missing)
+
+
+
+
 
 
 
